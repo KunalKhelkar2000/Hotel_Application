@@ -6,7 +6,7 @@ class HotelApplication
 		HotelManagement h=new HotelManagement();
 		for(;;)
 		{
-			System.out.println("1 choose hotel 2.order food 3.bill 4.exit");
+			System.out.println("1 choose Food 2.order food 3.bill 4.exit");
              switch(h.sc.nextInt())
 			{
 				 case 1:
